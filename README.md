@@ -48,3 +48,16 @@ input_data = pd.DataFrame([[gender, senior, partner, tenure, monthly, total]],
 pred = model.predict(input_data)[0]
 st.subheader("Prediction:")
 st.write("Churn" if pred == 1 else "No Churn")
+# Customer Churn Prediction
+
+This project uses machine learning to predict whether a customer will churn based on historical data.
+
+## 💡 Features
+- Data preprocessing and transformation
+- Multiple model training and evaluation
+- Deployment using Streamlit Cloud
+
+## 📦 Setup
+```bash
+pip install -r requirements.txt
+
